@@ -5,12 +5,12 @@
 function multiplicarArreglo(arreglo) {
     // Verificar si el arreglo está vacío
     if (arreglo.length === 0) {
-        return 0;  // Si el arreglo está vacío, retornar 0 (producto de arreglo vacío es 0)
+        return 0;  // Si el arreglo está vacío, retornar 0 
     }
 
     let producto = 1;
 
-    // Iterar sobre cada elemento del arreglo
+    // Itera sobre cada elemento del arreglo
     for (let i = 0; i < arreglo.length; i++) {
         producto *= arreglo[i];  // tiene que  multiplicar cada elemento al producto acumulado
     }
@@ -18,7 +18,7 @@ function multiplicarArreglo(arreglo) {
     return producto;  
 }
 
-// Ejemplo de uso de la función
+
 const numeros1 = [1, 2, 3, 4, 5];
 console.log(multiplicarArreglo(numeros1));  
 
