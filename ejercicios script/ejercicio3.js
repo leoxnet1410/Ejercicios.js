@@ -23,8 +23,11 @@ function bmi(peso, altura) {
     }
     return "Obeso";
   }
-  
-  console.log(bmi(65,1.8 ));
+  console.clear()
+  console.log(bmi(80,1.8 ));
+  console.log(bmi(100,2.0 ));
+  console.log(bmi(150,1.9));
+  console.log(bmi(40,26 ));
 
 
 
